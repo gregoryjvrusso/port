@@ -83,7 +83,9 @@
   width: 20px;
   height: 20px;
 }
-
+#time-line > div {
+  margin: 2%;
+}
 .text-description{
   font-size: 14px;
   letter-spacing: -0.6px;
@@ -115,4 +117,28 @@
   background-color: #000;
   color: #FFF;
   text-decoration: none;
+}
+#clube-project {
+  background-color: #7C43DD;
+  margin-top: 3%;
+}
+.btn-link-white{
+  background-color: #FFF;
+  color: #7C43DD;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30%;
+}
+.btn-link-white:hover{
+  background-color: #FFF;
+  color: #7C43DD;
+  text-decoration: none;
+}
+.btn-link-white:visited{
+  background-color: #FFF;
+  color: #7C43DD;
+  text-decoration: none;
+}
+#leading-products{
+  background-color: #FFBE0F;
 }
