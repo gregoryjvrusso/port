@@ -1,36 +1,37 @@
-
+.container-fluid{
+  margin: 0px !important;
+  padding: 0px !important;
+}
 @media only screen and (max-width: 450px) {
   .text-title{
     font-weight: 600;
-    font-size: 20px !important;
+    font-size: 25px !important;
     letter-spacing: -0.6px;
   }
   .text-description{
-    font-size: 12px !important; 
-  }
-  #header-text-description{
-    display: -webkit-flex; 
-    -webkit-align-items: center;
-    display: flex;         
-    align-items: center;
-    margin: 3% auto;
+    font-size: 14px !important; 
   }
 }
 @media only screen and (max-width: 800px) {
   #header {
     background-image: url('../medias/imageHeader.png');
   }
+  #header-text-description-mobile{
+    display: block;
+    padding: 20px;
+  }
+  #header-text-description-desktop{
+    display: none;
+  }
   .text-title{
     font-weight: 600;
     font-size: 25px;
     letter-spacing: -0.6px;
   }
-  #header-text-description{
-    display: -webkit-flex; 
-    -webkit-align-items: center;
-    display: flex;         
-    align-items: center;
-    margin: 3% auto;
+  .text-subtitle{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: right;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -41,28 +42,33 @@
     background-position:top;
     background-attachment: fixed;
   }
-  #header-text-description{
+  #header-text-description-desktop{
     display: -webkit-flex; 
     -webkit-align-items: center;
     display: flex;         
     align-items: center;
     margin: 3% auto;
   }
+  #header-text-description-mobile{
+    display: none;
+  }
   .text-title{
     font-weight: 600;
     font-size: 35px;
     letter-spacing: -0.6px;
   }
+  .text-subtitle{
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    text-align: right;
+  }
 }
 #header{
-  height: 400px;
-  
+  height: auto;
 }
 #header-menu{
   border-bottom: 1px black solid;
-  /* padding: 15px; */
-}
-#header-links{
   /* padding: 15px; */
 }
 #name-title{
@@ -81,4 +87,32 @@
 .text-description{
   font-size: 14px;
   letter-spacing: -0.6px;
+}
+.timeline-text-principal{
+  font-weight: 600;
+  text-align: right;
+  margin: 0px;  
+}
+.timeline-text-description{
+  text-align: right;
+  margin: 0px;
+}
+.text-year{
+  text-align: center;
+}
+.btn-link{
+  border-radius: 15px;
+  background-color: #000;
+  color: #FFF;
+  padding: 20px;
+}
+.btn-link:hover{
+  background-color: #000;
+  color: #FFF;
+  text-decoration: none;
+}
+.btn-link:visited{
+  background-color: #000;
+  color: #FFF;
+  text-decoration: none;
 }
