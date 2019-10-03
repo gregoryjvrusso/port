@@ -6,10 +6,16 @@
   .text-title{
     font-weight: 600;
     font-size: 25px !important;
+    font-family: 'Raleway';
+    text-align: center;
     letter-spacing: -0.6px;
   }
   .text-description{
-    font-size: 14px !important; 
+    font-size: 16px !important; 
+    font-family: 'Raleway';
+  }
+  #image-title{
+    padding: 5%;
   }
 }
 
@@ -18,10 +24,13 @@
     font-weight: 600;
     font-size: 25px;
     letter-spacing: -0.6px;
+    text-align: center;
+    font-family: 'Raleway';
   }
   .text-subtitle{
     font-weight: 600;
-    font-size: 15px;
+    font-family: 'Raleway';
+    font-size: 18px;
     text-align: right;
   }
   #user-journey{
@@ -48,17 +57,22 @@
   .btn{
     margin-top: 8%
   }
+  #image-title{
+    padding: 5%;
+  }
 }
 @media only screen and (min-width: 800px) {
   .text-title{
     font-weight: 600;
     font-size: 35px;
     letter-spacing: -0.6px;
+    font-family: 'Raleway';
   }
   .text-subtitle{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: -0.6px;
+    font-family: 'Raleway';
     text-align: right;
   }
   #user-journey{
@@ -88,6 +102,9 @@
   .btn{
     margin-top: 5%
   }
+  #image-title{
+    padding: 2%;
+  }
 }
 #header{
   height: auto;
@@ -100,9 +117,6 @@
   letter-spacing: -0.6px;
   font-size: 20px !important;
   font-weight: 600;
-}
-#image-title{
-  padding: 2%;
 }
 #image-title > a > img{
   width: 20px;
@@ -269,7 +283,7 @@
   height: 10px;
   background-color: #c0c0c0;
   border-radius: 50%;
-  display: table;
+  display: none;
   margin: 0 4px;
   will-change: background;
   -webkit-transition: background 0.2s linear;

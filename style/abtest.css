@@ -6,22 +6,34 @@
   .text-title{
     font-weight: 600;
     font-size: 25px !important;
+    font-family: 'Raleway';
     letter-spacing: -0.6px;
+    text-align: center;
   }
   .text-description{
-    font-size: 14px !important; 
+    font-size: 16px !important; 
+    font-family: 'Raleway';
+  }
+  #image-title{
+    padding: 5%;
   }
 }
 @media only screen and (max-width: 800px) {
   .text-title{
     font-weight: 600;
     font-size: 25px;
+    font-family: 'Raleway';
     letter-spacing: -0.6px;
+    text-align: center;
   }
   .text-subtitle{
     font-weight: 600;
-    font-size: 15px;
+    font-family: 'Raleway';
+    font-size: 18px;
     text-align: right;
+  }
+  #image-title{
+    padding: 5%;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -29,12 +41,17 @@
     font-weight: 600;
     font-size: 35px;
     letter-spacing: -0.6px;
+    font-family: 'Raleway';
   }
   .text-subtitle{
     font-weight: 600;
     font-size: 20px;
+    font-family: 'Raleway';
     letter-spacing: -0.6px;
     text-align: right;
+  }
+  #image-title{
+    padding: 2%;
   }
 }
 .bg-black{
@@ -57,9 +74,6 @@
   letter-spacing: -0.6px;
   font-size: 20px !important;
   font-weight: 600;
-}
-#image-title{
-  padding: 2%;
 }
 #image-title > a > img{
   width: 20px;
@@ -126,72 +140,6 @@
   color: #FFF;
   text-decoration: none;
 }
-
-[carousel-slider] {
-  margin: 2px;
-}
-/***Carousel***/
-.banners-carousels {
-  position: relative;
-  margin: 0 0px 0 0px;
-}
-.carousel-overflow {
-  overflow: hidden;
-}
-.carousel-nav {
-  position: relative;
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 18px;
-  color: #000000;
-}
-.carousel-nav i {
-  cursor: pointer;
-  font-size: 23px;
-  color: #545454;
-}
-.carousel-nav > div.nav-disable {
-  opacity:0.5;
-  cursor:default;
-}
-.carousel-slider .unit-carousel {
-  display: table;
-}
-.carousel-slider  > div {
-  display: flex;
-  flex-direction: row;
-  transition: transform 0.3s linear;
-  touch-action: pan-y;
-}
-.icon-arrow-slim-left:before {
-  content: "\f107";
-}
-.banners-style-5 .carousel-slider > div{
-  display: flex;
-  display: -webkit-flex;
-  height: 100%;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.carousel-nav .circle-index {
-  width: 10px;
-  height: 10px;
-  background-color: #c0c0c0;
-  border-radius: 50%;
-  display: table;
-  margin: 0 4px;
-  will-change: background;
-  -webkit-transition: background 0.2s linear;
-  -moz-transition: background 0.2s linear;
-  transition: background 0.2s linear;
-}
-.carousel-nav .current .circle-index {
-  background-color: #000;
-}
-
 .btn-black{
   padding: 2% 4%;
   font-size: 10px;

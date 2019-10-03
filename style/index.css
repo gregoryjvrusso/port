@@ -1,15 +1,41 @@
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-Medium.ttf);
+}
 .container-fluid{
   margin: 0px !important;
   padding: 0px !important;
 }
 @media only screen and (max-width: 450px) {
   .text-title{
+    font-family: 'Raleway';
     font-weight: 600;
-    font-size: 25px !important;
+    font-size: 25px;
     letter-spacing: -0.6px;
+    text-align: center;
   }
   .text-description{
+    font-family: 'Raleway';
     font-size: 14px !important; 
+  }
+  .year-timeline{
+    display: none;
+  }
+  #photo-academic{
+    display: none;
+  }
+  .btnmobile{
+    text-align: center;
+  }
+  .text-uol-product{
+    margin-top: 20px;
+    font-size: 22px!important;
+  }
+  #clube-project{
+    padding-bottom: 30px!important;
+  }
+  #image-title{
+    padding: 5%;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -36,17 +62,39 @@
     background-size: 45%;
   }
   .text-title{
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 25px;
     letter-spacing: -0.6px;
+    text-align: center;
   }
   .text-subtitle{
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 15px;
     text-align: right;
   }
   #text-image{
     display: none;
+  }
+  .year-timeline{
+    display: none;
+  }
+  #photo-academic{
+    display: none;
+  }
+  .btnmobile{
+    text-align: center;
+  }
+  .text-uol-product{
+    margin-top: 20px;
+    font-size: 22px!important;
+  }
+  #clube-project{
+    padding-bottom: 30px!important;
+  }
+  #image-title{
+    padding: 5%;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -87,10 +135,12 @@
   }
   .text-title{
     font-weight: 600;
+    font-family: 'Raleway';
     font-size: 35px;
     letter-spacing: -0.6px;
   }
   .text-subtitle{
+    font-family: 'Raleway';
     font-weight: 600;
     font-size: 20px;
     letter-spacing: -0.6px;
@@ -112,6 +162,19 @@
     font-weight: 600;
     left: 35%;
     display: none;
+  }
+  .year-timeline{
+    display: block;
+  }
+  #photo-academic{
+    padding-bottom: 30px;
+    display: block;
+  }
+  #photo-learning{
+    width: 80%;
+  }
+  #image-title{
+    padding: 2%;
   }
 }
 .bg-black{
@@ -148,9 +211,6 @@
   font-size: 20px !important;
   font-weight: 600;
 }
-#image-title{
-  padding: 2%;
-}
 #image-title > a > img{
   width: 20px;
   height: 20px;
@@ -186,9 +246,6 @@
   background-color: #000;
   color: #FFF;
   text-decoration: none;
-}
-#photo-academic{
-  padding-bottom: 30px;
 }
 .btn-link-white{
   background-color: #FFF;
@@ -230,7 +287,7 @@
   color: #FFF;
   border-radius: 15px;
   border: 2px #FFF solid;
-  padding: 20px;
+  padding: 20px 40px;
   margin-top: 30%;
 }
 .btn-link-orange-itau:hover{
@@ -354,6 +411,7 @@
 }
 
 .row{
+  font-family: 'Raleway';
   display: -webkit-flexbox;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -366,7 +424,7 @@
 }
 
 #time-line > .row {
-  border-bottom: 1px #545454 solid ;
+  border-bottom: 1px #dedede solid ;
   padding-bottom: 2%
 }
 
@@ -395,3 +453,19 @@
   letter-spacing: -0.6px;
   text-decoration: underline;
 }
+.link-footer{
+  color: #FFF;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+.link-footer:visited{
+  color: #FFF;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+.link-footer:hover{
+  color: #FFF;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+
