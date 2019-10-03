@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel='stylesheet' href='style/abtest.css'>
+</head>
+
+<body>
+  <div class='container-fluid'>
+    <div class='col-xs-12 col-md-12' id='header'>
+      <div class='col-xs-12 col-md-10 col-md-offset-1' id='header-menu'>
+        <div class='col-xs-6 col-md-4' id='header-links'>
+          <h1 id='name-title'>davialves.de</h1>
+        </div>
+        <div class='col-xs-4 col-xs-offset-2 col-md-2 col-md-offset-6' id='image-title'>
+          <a href='http://davialves.de/resume.pdf'>
+            <img src="medias/google-drive-pdf-file.png" alt="">
+          </a>
+          <a href='mailto:davi.alves.00@gmail.com'>
+            <img src="medias/gmail.png" alt="">
+          </a>
+          <a href='https://www.linkedin.com/in/davibarbosaalves/'>
+            <img src="medias/linkedin-logo.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class='col-xs-12 col-md-10 col-md-offset-1'>
+        <a href='index.html' id='link-index'>Home</a><span style='font-weight: 600'> / A/B Test For Conversion</span>
+      </div>
+      <div class='col-xs-12 col-md-8 col-md-offset-2 section' id='abtest'>
+        <div class='col-md-6 col-xs-12'>
+          <img src='medias/ilustracao-abtest.jpg' class='img-responsive'>
+        </div>
+        <div class='col-md-6 col-xs-12'>
+          <p class='text-title'>
+            I’ve runned a lots of successful A/B tests during my career,
+            but I would like to share a big failure.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class='col-xs-12 col-md-12 section bg-black white' id='context'>
+      <div class='col-xs-12 col-md-offset-4 col-md-4'>
+        <p class='text-title center'>The context</p>
+        <p class='text-description'>
+          At UOL we used to have lots of old web pages
+          (because is a 90’s internet company), and things
+          changed really fast.
+        </p>
+        <p class='text-description'>
+          I was responsible for the website of a group of hosting
+          products and I face a monstrous, unresponsive, ugly, old
+          hiring webpages for web domains.
+        </p>
+        <p class='text-description'>
+          Well, I’ve done before a lots of conversion tests to non-mobile
+          vs. mobile friendly webpages and even when it was a disaster we
+          have improved the conversion rate at least a little bit.
+        </p>
+      </div>
+    </div>
+    <div class='col-xs-12 col-md-12 section' id='test'>
+      <div class='col-xs-12 col-md-offset-4 col-md-4'>
+        <p class='text-description'>
+          And it wasn’t just that, the page used to have old
+          information in the menu bar, and the new one above all
+          that have new features, new suggestions, new “go to the
+          top button”.
+        </p>
+        <p class='text-description'>
+          I mean, c’mon, right? Take a look:
+        </p>
+      </div>
+      <div class='col-xs-12 col-md-8 col-md-offset-2' style='margin-top: 2%'>
+        <div class='col-xs-12 col-md-6'>
+          <div class='center center-hor'>
+            <div class='btn-black'>
+              old
+            </div>
+          </div>
+          <img src='medias/ilustracao-antes.png' class='img-responsive'>
+        </div>
+        <div class='col-xs-12 col-md-6'>
+          <div class='center center-hor'>
+            <div class='btn-black'>
+              new
+            </div>
+          </div>
+          <img src='medias/ilustracao-depois.png' class='img-responsive'>
+        </div>
+      </div>
+      <div class='col-xs-12 col-md-6 col-md-offset-3' style='margin-top: 2%'>
+        <p class='text-title center'>
+          Well, big disaster: -20% <br/>overall conversion<br/> and -30% GMV
+        </p>
+        <p class='text-description'>
+          What we’ve learned was that we still have a lot to learn
+          about the process, the mindset of purchases clients.
+        </p>
+        <p class='text-description bold'>
+          We’ve jumped to fast to a solution.
+        </p>
+        <p class='text-description'>
+          Our next step was to look at all funnel data, look at Hotjar for
+          insights, interviewing people and test more prototypes before go
+          live to another test, and the most important thing learned was to
+          have a clear problem to solve not just improve a conversion
+          metric for example.
+        </p>
+        <p class='text-description'>
+          After that, we were able to find new ways to improve the experience
+          through the funnel.
+        </p>
+        <p class='text-description'>
+          I think that is a good example because show us that we shouldn’t trust
+          in common sense and know and the first solution that comes to mind
+          usually is not the best, we should look for data, investigate and get
+          deeper in to the customers mind, to seek a real problema to solve.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src='script/abtest.js'></script>
+</body>
+
+</html>

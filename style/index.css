@@ -23,6 +23,18 @@
   #header-text-description-desktop{
     display: none;
   }
+  #uol-project-mobile{
+    display: block;
+  }
+  #uol-project-desktop{
+    display: none;
+  }
+  #leading-products{
+    background-image: url('../medias/uolBig.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 45%;
+  }
   .text-title{
     font-weight: 600;
     font-size: 25px;
@@ -52,6 +64,24 @@
   #header-text-description-mobile{
     display: none;
   }
+  #uol-project-mobile{
+    display: none;
+  }
+  #uol-project-desktop{
+    display: block;
+  }
+  #leading-products{
+    background-image: url('../medias/uolBig.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 30%;
+  }
+  #itau-project{
+    background-image: url('../medias/itau.png');
+    background-repeat: no-repeat;
+    background-position: right bottom -110px;;
+    background-size: contain;
+  }
   .text-title{
     font-weight: 600;
     font-size: 35px;
@@ -63,13 +93,52 @@
     letter-spacing: -0.6px;
     text-align: right;
   }
+  #link-photo:hover {
+    background-color: #000;
+  }
+  #uolec:hover > img{
+    opacity: 0.1;
+  }
+  #uolec:hover > #text-image{
+    display: block;
+  }
+  #text-image{
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-weight: 600;
+    left: 35%;
+    display: none;
+  }
+}
+.bg-black{
+  background-color: #000;
+}
+.bg-orange{
+  background-color: #F87028;
+}
+.bg-purple{
+  background-color: #7C43DD;
+}
+.bg-yellow{
+  background-color: #FFBE0F;
+  padding-bottom: 0px !important;
+}
+.text-white{
+  color: #FFF;
+}
+.center{
+  text-align: center;
+}
+.section{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #header{
   height: auto;
 }
 #header-menu{
   border-bottom: 1px black solid;
-  /* padding: 15px; */
 }
 #name-title{
   letter-spacing: -0.6px;
@@ -99,9 +168,6 @@
   text-align: right;
   margin: 0px;
 }
-.text-year{
-  text-align: center;
-}
 .btn-link{
   border-radius: 15px;
   background-color: #000;
@@ -118,9 +184,8 @@
   color: #FFF;
   text-decoration: none;
 }
-#clube-project {
-  background-color: #7C43DD;
-  margin-top: 3%;
+#photo-academic{
+  padding-bottom: 30px;
 }
 .btn-link-white{
   background-color: #FFF;
@@ -128,6 +193,7 @@
   border-radius: 15px;
   padding: 20px;
   margin-top: 30%;
+  letter-spacing: 0;
 }
 .btn-link-white:hover{
   background-color: #FFF;
@@ -139,6 +205,190 @@
   color: #7C43DD;
   text-decoration: none;
 }
-#leading-products{
-  background-color: #FFBE0F;
+.btn-link-white-itau{
+  background-color: #FFF;
+  color: #F87028;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30%;
+}
+.btn-link-white-itau:hover{
+  background-color: #FFF;
+  color: #F87028;
+  text-decoration: none;
+}
+.btn-link-white-itau:visited{
+  background-color: #FFF;
+  color: #F87028;
+  text-decoration: none;
+}
+.btn-link-orange-itau{
+  background-color: #F87028;
+  color: #FFF;
+  border-radius: 15px;
+  border: 2px #FFF solid;
+  padding: 20px;
+  margin-top: 30%;
+}
+.btn-link-orange-itau:hover{
+  background-color: #F87028;
+  color: #FFF;
+  text-decoration: none;
+}
+.btn-link-orange-itau:visited{
+  background-color: #F87028;
+  color: #FFF;
+  text-decoration: none;
+}
+.link-list{
+  font-weight: 600;
+  color: #003399;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+.link-list:visited{
+  font-weight: 600;
+  color: #003399;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+.link-list:hover{
+  font-weight: 600;
+  color: #003399;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+.links-lectures{
+  margin: 30px 0;
+  background-color: #EFEFEF;
+  padding: 30px 10px;
+}
+#footer > span{
+  text-decoration: underline;
+}
+
+
+[carousel-slider] {
+  margin: 2px;
+}
+/***Carousel***/
+.banners-carousels {
+  position: relative;
+  margin: 0 0px 0 0px;
+}
+.carousel-overflow {
+  overflow: hidden;
+}
+.carousel-nav {
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  color: #000000;
+}
+.carousel-nav i {
+  cursor: pointer;
+  font-size: 23px;
+  color: #545454;
+}
+.carousel-nav > div.nav-disable {
+  opacity:0.5;
+  cursor:default;
+}
+.carousel-slider .unit-carousel {
+  display: table;
+}
+.carousel-slider  > div {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.3s linear;
+  touch-action: pan-y;
+}
+.icon-arrow-slim-left:before {
+  content: "\f107";
+}
+.banners-style-5 .carousel-slider > div{
+  display: flex;
+  display: -webkit-flex;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.carousel-nav .circle-index {
+  width: 10px;
+  height: 10px;
+  background-color: #c0c0c0;
+  border-radius: 50%;
+  display: table;
+  margin: 0 4px;
+  will-change: background;
+  -webkit-transition: background 0.2s linear;
+  -moz-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+.carousel-nav .current .circle-index {
+  background-color: #000;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.center-hor{
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.row{
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 100%;
+}
+
+#time-line > .row {
+  border-bottom: 1px #545454 solid ;
+  padding-bottom: 2%
+}
+
+.center-align{
+  padding-top: 5%;
+}
+
+#celular{
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.link{
+  color: #003399;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+.link:visited{
+  color: #003399;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
+}
+.link:hover{
+  color: #003399;
+  letter-spacing: -0.6px;
+  text-decoration: underline;
 }
