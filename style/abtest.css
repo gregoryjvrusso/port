@@ -17,6 +17,9 @@
   #image-title{
     padding: 5%;
   }
+  .link-index{
+    padding-top: 2%;
+  }
 }
 @media only screen and (max-width: 800px) {
   .text-title{
@@ -35,6 +38,9 @@
   #image-title{
     padding: 5%;
   }
+  .link-index{
+    padding-top: 2%;
+  }
 }
 @media only screen and (min-width: 800px) {
   .text-title{
@@ -52,6 +58,9 @@
   }
   #image-title{
     padding: 2%;
+  }
+  .link-index{
+    padding-top: 1%;
   }
 }
 .bg-black{
