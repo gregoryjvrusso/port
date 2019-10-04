@@ -18,6 +18,12 @@
     font-family: 'Raleway';
     font-size: 14px !important; 
   }
+  #name-title{
+    letter-spacing: -0.6px;
+    font-size: 18px !important;
+    font-weight: 600;
+    font-family: 'Raleway';
+  }
   .year-timeline{
     display: none;
   }
@@ -35,7 +41,7 @@
     padding-bottom: 30px!important;
   }
   #image-title{
-    padding: 5%;
+    padding: 2%;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -74,6 +80,17 @@
     font-size: 15px;
     text-align: right;
   }
+  .text-description{
+    font-family: 'Raleway';
+    font-size: 18px;
+    text-align: left;
+  }
+  #name-title{
+    letter-spacing: -0.6px;
+    font-size: 18px !important;
+    font-weight: 600;
+    font-family: 'Raleway';
+  }
   #text-image{
     display: none;
   }
@@ -94,7 +111,7 @@
     padding-bottom: 30px!important;
   }
   #image-title{
-    padding: 5%;
+    padding: 2%;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -126,7 +143,7 @@
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 30%;
-  }
+  } 
   #itau-project{
     background-image: url('../medias/itau.png');
     background-repeat: no-repeat;
@@ -146,22 +163,10 @@
     letter-spacing: -0.6px;
     text-align: right;
   }
-  #link-photo:hover {
-    background-color: #000;
-  }
-  #uolec:hover > img{
-    opacity: 0.1;
-  }
-  #uolec:hover > #text-image{
-    display: block;
-  }
-  #text-image{
-    position: absolute;
-    top: 50%;
-    color: white;
-    font-weight: 600;
-    left: 35%;
-    display: none;
+  .text-description{
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: left;
   }
   .year-timeline{
     display: block;
@@ -174,7 +179,15 @@
     width: 80%;
   }
   #image-title{
-    padding: 2%;
+    padding: 1%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  #itau-project{
+    background-image: url('../medias/itau.png');
+    background-repeat: no-repeat;
+    background-position: center bottom -110px;;
+    background-size: contain;
   }
 }
 .bg-black{
@@ -205,15 +218,19 @@
 }
 #header-menu{
   border-bottom: 1px black solid;
+  padding: 0;
 }
 #name-title{
   letter-spacing: -0.6px;
-  font-size: 20px !important;
-  font-weight: 600;
+  font-size: 18px !important;
+  text-align: left;
+}
+#image-title{
+  text-align: right;
 }
 #image-title > a > img{
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 #time-line > div {
   margin: 2%;
@@ -234,6 +251,7 @@
 .btn-link{
   border-radius: 15px;
   background-color: #000;
+  font-family: 'Raleway';
   color: #FFF;
   padding: 20px;
 }
@@ -251,6 +269,7 @@
   background-color: #FFF;
   color: #7C43DD;
   border-radius: 15px;
+  font-family: 'Raleway';
   padding: 20px;
   margin-top: 30%;
   letter-spacing: 0;
@@ -268,6 +287,7 @@
 .btn-link-white-itau{
   background-color: #FFF;
   color: #F87028;
+  font-family: 'Raleway';
   border-radius: 15px;
   padding: 20px;
   margin-top: 30%;
@@ -285,6 +305,7 @@
 .btn-link-orange-itau{
   background-color: #F87028;
   color: #FFF;
+  font-family: 'Raleway';
   border-radius: 15px;
   border: 2px #FFF solid;
   padding: 20px 40px;
@@ -433,8 +454,8 @@
 }
 
 #celular{
-  width: 80%;
-  height: 400px;
+  /* width: 80%; */
+  /* min-height: 400px; */
   object-fit: cover;
   object-position: center;
 }

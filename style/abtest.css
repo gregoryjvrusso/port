@@ -15,10 +15,12 @@
     font-family: 'Raleway';
   }
   #image-title{
-    padding: 5%;
+    padding: 2%;
   }
   .link-index{
     padding-top: 2%;
+    font-family: 'Raleway';
+
   }
 }
 @media only screen and (max-width: 800px) {
@@ -35,11 +37,17 @@
     font-size: 18px;
     text-align: right;
   }
+  .text-description{
+    font-family: 'Raleway';
+    font-size: 18px;
+    text-align: left;
+  }
   #image-title{
-    padding: 5%;
+    padding: 2%;
   }
   .link-index{
     padding-top: 2%;
+    font-family: 'Raleway';
   }
 }
 @media only screen and (min-width: 800px) {
@@ -56,11 +64,17 @@
     letter-spacing: -0.6px;
     text-align: right;
   }
+  .text-description{
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: left;
+  }
   #image-title{
-    padding: 2%;
+    padding: 1%;
   }
   .link-index{
-    padding-top: 1%;
+    padding-top:0.5%;
+    font-family: 'Raleway';
   }
 }
 .bg-black{
@@ -77,16 +91,20 @@
 }
 #header-menu{
   border-bottom: 1px black solid;
-  /* padding: 15px; */
+  padding: 0;
 }
 #name-title{
   letter-spacing: -0.6px;
-  font-size: 20px !important;
-  font-weight: 600;
+  font-size: 18px !important;
+  text-align: left;
+  padding-left: 0;
+}
+#image-title{
+  text-align: right;
 }
 #image-title > a > img{
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 #link-index{
   color: #414141;
