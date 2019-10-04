@@ -43,6 +43,12 @@
   #image-title{
     padding: 2%;
   }
+  #foto-clude-celular{
+    display: block;
+  }
+  #foto-clude-desktop{
+    display: none;
+  }
 }
 @media only screen and (max-width: 800px) {
   #header {
@@ -113,6 +119,12 @@
   #image-title{
     padding: 2%;
   }
+  #foto-clude-celular{
+    display: block;
+  }
+  #foto-clude-desktop{
+    display: none;
+  }
 }
 @media only screen and (min-width: 800px) {
   #header {
@@ -181,6 +193,12 @@
   #image-title{
     padding: 1%;
   }
+  #foto-clude-celular{
+    display: none;
+  }
+  #foto-clude-desktop{
+    display: block;
+  }
 }
 @media only screen and (min-width: 1500px) {
   #itau-project{
@@ -188,6 +206,9 @@
     background-repeat: no-repeat;
     background-position: center bottom -110px;;
     background-size: contain;
+  }
+  #foto-clude-desktop{
+    margin-left: 150px;
   }
 }
 .bg-black{
@@ -453,12 +474,6 @@
   padding-top: 5%;
 }
 
-#celular{
-  /* width: 80%; */
-  /* min-height: 400px; */
-  object-fit: cover;
-  object-position: center;
-}
 .link{
   color: #003399;
   letter-spacing: -0.6px;
